@@ -6,6 +6,11 @@ from fastapi import FastAPI, Request, HTTPException, Query
 app = FastAPI()
 
 
+
+
+
+
+
 def database():
     try:
         load_dotenv()
